@@ -1,0 +1,27 @@
+#landing {
+  /*width: 100vh;*/
+  height: 100vh;
+  margin-top: -62px;
+}
+
+.landing-heading {
+  padding: 25vh 0 0 15vh;
+}
+
+.landing-heading h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 3.5em;
+  color: #3F3E3E;
+}
+
+.green-heading {
+  color: #7DA77C;
+}
+
+.pink-heading {
+  color: #FFE1E1;
+}
+
+

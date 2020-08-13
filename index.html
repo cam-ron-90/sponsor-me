@@ -6,12 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 
-  <div class="navbar navbar-expand-sm navbar-light navbar-sponsor">
+
+
+  <div id="landing">
+    <div class="landing-heading">
+      <h1>MY FAVORITE COLOUR IS <span class="green-heading">{ GREEN... }</span>
+        <br>BUT I ALSO LIKE <span class="pink-heading">{ PINK }</span>
+      </h1>
+    </div>
+  </div>
+
+<div class="navbar navbar-expand-sm navbar-light navbar-sponsor">
     <a href="#landing" class="navbar-brand"><img src="images/logo1.png" alt="logo"></a>
     <div class="navbar-links">
       <a href="#about">Me.</a>
@@ -19,29 +29,68 @@
       <a href="#art">Art.</a>
       <a href="#info">Info.</a>
     </div>
-
-  </div>
-
-  <div id="landing">
-    <h1>MY FAVORITE COLOUR IS GREEN...</h1>
-    <h1>BUT I ALSO LIKE PINK</h1>
   </div>
 
   <div id="about">
-
+    <div class="about-heading">
+      <h1> <span id="me-me">me me me me
+        <br>me me me me
+        <br>me me me</span> Me.
+      </h1>
+    </div>
   </div>
 
   <div id="examples">
-
+    <div class="about-heading">
+      <h1>Eg.</h1>
+    </div>
   </div>
 
   <div id="art">
-
+    <div class="about-heading">
+      <h1>Art.</h1>
+    </div>
   </div>
 
   <div id="info">
-
+    <div class="about-heading">
+      <h1>Info.</h1>
+    </div>
   </div>
+  <script>
+    const nav = document.querySelector(".navbar-sponsor");
+    const navTop = nav.offsetTop;
+
+    function fixNav() {
+      if (window.scrollY >= navTop) {
+        document.body.style.paddingTop = nav.offsetHeight + "px";
+        nav.classList.add("fixed-nav");
+        // document.body.classList.remove("fixed-nav");
+      } else {
+        document.body.style.paddingTop = 0;
+        nav.classList.remove("fixed-nav");
+      }
+    }
+
+    window.addEventListener("scroll", fixNav);
+
+    const info = document.getElementById("info");
+    const infoTop = info.offsetTop - 500;
+
+    function pinkMode() {
+      if (window.scrollY >= infoTop) {
+
+        document.body.classList.add("pink-mode");
+        // nav.classList.add("fixed-nav");
+        // document.body.classList.remove("fixed-nav");
+      } else {
+        // document.body.style.paddingTop = 0;
+        document.body.classList.remove("pink-mode");
+      }
+    }
+
+    window.addEventListener("scroll", pinkMode);
+  </script>
 
 </body>
 </html>

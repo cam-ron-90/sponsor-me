@@ -1,0 +1,22 @@
+#about {
+  width: 100%;
+  height: 100vh;
+}
+
+.about-heading {
+  /*margin: 30vh 0 0 5vh;
+  padding-top: 30vh 0 0 5vh;*/
+}
+
+.about-heading h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #AF8989;
+  margin: 30vh 0 0 5vh;
+  padding-top: 10vh;
+}
+
+#me-me {
+  font-style: italic;
+}
