@@ -30,6 +30,15 @@
   margin-top: 10vh;
 }
 
+.info-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: .8rem;
+  color: #757070;
+  /*text-align: center;*/
+  /*margin-top: 10vh;*/
+}
+
 .social-media {
   text-align: center;
   margin: auto;
@@ -42,6 +51,7 @@
 }
 
 ul {
+  margin-top: 10vh;
   display: flex;
   justify-content: center;
   padding: 0;
@@ -54,7 +64,8 @@ ul li {
 
 ul li a {
   background: #757070;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
+  clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
   color: #FFE1E1;
   display: block;
   font-size: 4vh;
