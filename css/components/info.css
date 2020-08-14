@@ -1,6 +1,7 @@
 #info {
   width: 100%;
   height: 100vh;
+  /*position: relative;*/
 }
 
 .info-heading {
@@ -15,4 +16,57 @@
   color: #AF8989;
   margin: 30vh 0 0 5vh;
   padding-top: 10vh;
+}
+
+.info-text {
+  text-align: center;
+}
+.info-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 5em;
+  color: #757070;
+  /*text-align: center;*/
+  margin-top: 10vh;
+}
+
+.social-media {
+  text-align: center;
+  margin: auto;
+  /*bottom: 0%;*/
+  /*position: absolute;*/
+}
+
+.contact .logo {
+  height: 5vh;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+ul li a {
+  background: #757070;
+  border-radius: 50%;
+  color: #FFE1E1;
+  display: block;
+  font-size: 4vh;
+  height: 8vh;
+  line-height: 8vh;
+  text-align: center;
+  transition: .5s;
+  width: 8vh;
+}
+
+ul li a:hover {
+  color: #AF8989;
+ /* box-shadow: 0 0 16px #fffefe;
+  text-shadow: 0 0 5px #fffefe;*/
 }

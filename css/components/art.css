@@ -1,6 +1,6 @@
 #art {
   width: 100%;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .art-heading {
@@ -16,3 +16,65 @@
   margin: 30vh 0 0 5vh;
   padding-top: 10vh;
 }
+
+#art img {
+  filter: grayscale(1);
+  transition: all 1s;
+}
+
+#art img:hover {
+  filter: grayscale(0);
+}
+
+.art-top {
+  /*display: flex;*/
+  /*position: relative;*/
+  max-width: 100%;
+  display: block;
+  position: relative;
+  /*z-index: 9;*/
+  overflow: hidden;
+  /*line-height: 0;*/
+}
+
+#money {
+  /*position: sticky;*/
+  position: absolute;
+  /*display: block;*/
+  right: 0;
+  max-width: 40%;
+  margin-left: 15%;
+  overflow: hidden;
+}
+
+#pink-wu {
+  max-width: 35%;
+  margin: 6% 10% 8% 10%
+  /*margin-right: 20% ;*/
+}
+
+.art-bottom {
+  display: flex;
+}
+
+.art-bottom-left {
+  max-width: 55%;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+
+#hands {
+  width: 100%;
+  /*margin: 6% 10% 8% 10%*/
+  /*margin-right: 20% ;*/
+}
+
+#bubble {
+  width: 50%;
+  margin: 15% 0 0 30%;
+  /*margin-right: 20% ;*/
+}
+.art-bottom-right {
+  margin: 50vh 15vh 0 15vh;
+}
+

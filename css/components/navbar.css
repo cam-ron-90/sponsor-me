@@ -11,6 +11,7 @@
 .fixed-nav {
   /*margin-top: 0px;*/
   position: fixed;
+  z-index: 300;
   top: 0;
 }
 
