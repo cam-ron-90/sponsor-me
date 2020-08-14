@@ -11,10 +11,10 @@ html {
 
 body {
   background: white;
-  transition: all 1s;
+  transition: background 2s;
 }
 
 .pink-mode {
-  /*transition: all 1s;*/
   background: #FFE1E1;
+  transition: all 2s;
 }

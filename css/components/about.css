@@ -8,15 +8,61 @@
   padding-top: 30vh 0 0 5vh;*/
 }
 
+.about-content {
+  /*height: 100%;*/
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-intro {
+  margin-left: 5vh;
+  max-width: fit-content;
+  display: grid;
+  justify-items: center;
+}
+
 .about-heading h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 3.5em;
   color: #AF8989;
-  margin: 30vh 0 0 5vh;
+  /*margin: 30vh 0 0 5vh;*/
   padding-top: 10vh;
 }
 
 #me-me {
   font-style: italic;
+}
+
+.avatar {
+  height: 45vh;
+}
+
+.about-intro p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #3F3E3E;
+}
+
+#me {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #AF8989;
+  font-style: italic;
+}
+
+.about-text {
+  max-width: 50%;
+  padding: 5%;
+  /*background: #AF8989;*/
+}
+
+.about-text p {
+  padding: 5%;
+  background: #AF8989;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #FFE1E1;
+  text-align: justify;
 }
