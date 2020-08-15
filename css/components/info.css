@@ -50,19 +50,19 @@
   height: 5vh;
 }
 
-ul {
+.social-media ul {
   margin-top: 10vh;
   display: flex;
   justify-content: center;
   padding: 0;
 }
 
-ul li {
+.social-media ul li {
   list-style: none;
   margin: 0 15px;
 }
 
-ul li a {
+.social-media ul li a {
   background: #757070;
   /*border-radius: 50%;*/
   clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
@@ -76,7 +76,7 @@ ul li a {
   width: 8vh;
 }
 
-ul li a:hover {
+.social-media ul li a:hover {
   color: #AF8989;
  /* box-shadow: 0 0 16px #fffefe;
   text-shadow: 0 0 5px #fffefe;*/

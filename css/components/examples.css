@@ -1,6 +1,6 @@
 #examples {
-  width: 100%;
-  height: 100vh;
+  width: 100vw;
+  /*height: 100vh;*/
 }
 
 .examples-heading {
@@ -17,3 +17,77 @@
   padding-top: 10vh;
 }
 
+.project-card {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+  .project-card p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+  }
+
+.logos {
+  /*height: 100%;*/
+  /*display: flex;*/
+  /*align-content: flex-end;*/
+  padding: 0 10%;
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .logo-container .logo {
+    height: 238px;
+    width: 238px;
+    background: #FFE1E1;
+    clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
+  }
+    .logo a {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+      .logo a img {
+        width: 70%;
+      }
+
+.cross {
+  height: 30px;
+  width: 30px;
+  background: #FFE1E1;
+  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+#logo-1 {
+  margin-right: 18%;
+  margin-left: auto;
+}
+
+#logo-2 {
+  margin-right: auto;
+  margin-left: 20%;
+}
+
+#logo-3 {
+  margin-right: 20%;
+  margin-left: auto;
+}
+
+#logo-4 {
+  margin-right: auto;
+  margin-left: 30%;
+}
+
+#logo-5 {
+  margin-right: 25%;
+  margin-left: auto;
+}

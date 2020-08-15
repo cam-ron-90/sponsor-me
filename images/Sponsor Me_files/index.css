@@ -1,0 +1,21 @@
+@import "components/navbar.css";
+@import "components/landing.css";
+@import "components/about.css";
+@import "components/examples.css";
+@import "components/art.css";
+@import "components/info.css";
+@import "components/slider.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  transition: background 2s;
+}
+
+.pink-mode {
+  background: #FFE1E1;
+  transition: all 2s;
+}
