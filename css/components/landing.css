@@ -25,7 +25,8 @@
 }
 
 #landing p {
-  padding: 120px 0 0 60px;
+  /*padding: 120px 0 0 60px;*/
+  padding: 15vh 0 0 15vh;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 2rem;
