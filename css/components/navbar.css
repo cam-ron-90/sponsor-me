@@ -36,3 +36,7 @@
   color: #AF8989;
   padding: 0 16px 0 16px;
 }
+
+.navbar-links a:hover {
+  color: white;
+}
