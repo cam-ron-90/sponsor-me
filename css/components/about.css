@@ -58,12 +58,13 @@
 }
 
 .about-text {
-  width: 50vw;
-  height: 50vw;
-  padding: 5%;
+  width: 45vw;
+  height: 45vw;
+  padding: 7%;
   background: #AF8989;
   clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
   display: flex;
+  align-items: center;
 
   /*background: #AF8989;*/
 }
@@ -73,6 +74,6 @@
   background: #AF8989;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  color: #FFE1E1;
+  color: white;
   text-align: justify;
 }
