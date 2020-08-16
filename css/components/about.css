@@ -9,17 +9,22 @@
 }
 
 .about-content {
-  /*height: 100%;*/
+  height: 100%;
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
 .about-intro {
+  height: 100%;
   margin-left: 5vh;
   max-width: fit-content;
   display: grid;
   justify-items: center;
+}
+
+.about-intro div {
+  text-align: center;
 }
 
 .about-heading h1 {
@@ -53,8 +58,13 @@
 }
 
 .about-text {
-  max-width: 50%;
+  width: 50vw;
+  height: 50vw;
   padding: 5%;
+  background: #AF8989;
+  clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
+  display: flex;
+
   /*background: #AF8989;*/
 }
 
