@@ -46,7 +46,9 @@
   transition: all 1s;
 }
 
-
+.avatar:hover {
+  filter: grayscale(0);
+}
 
 .about-intro p {
   font-family: 'Montserrat', sans-serif;
