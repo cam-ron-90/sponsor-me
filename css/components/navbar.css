@@ -35,6 +35,7 @@
   font-size: 1.5rem;
   color: #AF8989;
   padding: 0 16px 0 16px;
+  transition: .3s;
 }
 
 .navbar-links a:hover {
