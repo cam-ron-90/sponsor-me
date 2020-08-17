@@ -42,13 +42,13 @@
 
 .avatar {
   height: 45vh;
-  filter: grayscale(1);
-  transition: all 1s;
+  /*filter: grayscale(1);
+  transition: all 1s;*/
 }
 
-.avatar:hover {
+/*.avatar:hover {
   filter: grayscale(0);
-}
+}*/
 
 .about-intro p {
   font-family: 'Montserrat', sans-serif;
@@ -83,7 +83,7 @@
 
 .about-text p {
   padding: 0 16px;
-  background: #AF8989;
+  /*background: #AF8989;*/
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: white;
