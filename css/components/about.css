@@ -64,20 +64,22 @@
 }
 
 .about-text {
-  width: 45vw;
-  height: 45vw;
-  padding: 7%;
+  width: 40vw;
+  height: 40vw;
+  margin: 5%;
+  padding: 32px;
   background: #AF8989;
-  clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
+  /*clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);*/
   display: flex;
   align-items: center;
   overflow: scroll;
+  /*box-shadow: 2px 2px rgba(0,0,0, 0.3);*/
 
   /*background: #AF8989;*/
 }
 
 .about-text div {
-  height: 70%;
+  height: 80%;
   overflow: scroll;
 }
 
