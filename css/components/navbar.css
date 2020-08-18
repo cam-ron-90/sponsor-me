@@ -39,5 +39,9 @@
 }
 
 .navbar-links a:hover {
-  color: white;
+  /*border-bottom: 5px solid #AF8989;*/
+  /*text-decoration-line: line-through;*/
+  /*text-decoration-thickness: 5px;*/
+  color: #FFE1E1;
+  background: #AF8989;
 }
