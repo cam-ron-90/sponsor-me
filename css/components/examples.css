@@ -94,14 +94,16 @@
 
 
 .capsules {
+  margin-top: 80px;
+  padding: 0 16px;
   height: auto;
   display: flex;
   justify-content: space-around;
 }
 
 .capsule {
-  width: 210px;
-  height: 500px;
+  width: 200px;
+  height: 480px;
   border-radius: 50%/20%;
   border: 3px solid #757070;
   display: flex;
