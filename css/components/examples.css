@@ -148,9 +148,9 @@
   /*text-align: justify;*/
 }
 
-/*.cap-top a:hover {
-  box-shadow: 0 0 8px lightgray;
-}*/
+.cap-top a:hover > img {
+  width: 83%;
+}
 
 
 
