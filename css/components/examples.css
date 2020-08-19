@@ -105,7 +105,8 @@
   width: 200px;
   height: 480px;
   border-radius: 50%/20%;
-  border: 3px solid #bfbfbf;
+  border: 3px solid #af8989;
+  background: #e9ecef5c;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -114,7 +115,8 @@
 .cap-top {
   height: 170px;
   background: #FFE1E1;
-  border-bottom: 3px solid #bfbfbf;
+  border-bottom: 3px solid #af8989;
+  box-shadow: 0 0 10px #af8989b0;
 }
 
 .cap-top a {
@@ -132,6 +134,7 @@
 .cap-bottom {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  color: #757070;
 }
 
 .cap-bottom {
@@ -144,6 +147,10 @@
   /*padding: 16px;*/
   /*text-align: justify;*/
 }
+
+/*.cap-top a:hover {
+  box-shadow: 0 0 8px lightgray;
+}*/
 
 
 
