@@ -93,22 +93,26 @@
 }
 
 
-
+.capsules {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
 
 .capsule {
-  width: 15%;
-  height: 70%;
+  width: 210px;
+  height: 500px;
   border-radius: 50%/20%;
-  border: 3px solid grey;
+  border: 3px solid #757070;
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
 .cap-top {
-  height: 36%;
+  height: 170px;
   background: #FFE1E1;
-  border-bottom: 3px solid grey;
+  border-bottom: 3px solid #757070;
 }
 
 .cap-top a {
