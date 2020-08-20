@@ -3,6 +3,22 @@
   height: 100vh;
 }
 
+#about:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #FFE1E1;
+  /*clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);*/
+  /*clip-path: polygon(18% 17%, 10% 37%, 36% 51%, 10% 77%, 21% 97%, 50% 70%, 84% 83%, 94% 63%, 70% 50%, 85% 30%, 72% 11%, 50% 30%);*/
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+
+  z-index: -1;
+  /*top: 0;*/
+
+}
+
 .about-heading {
   /*margin: 30vh 0 0 5vh;
   padding-top: 30vh 0 0 5vh;*/

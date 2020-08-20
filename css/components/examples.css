@@ -94,7 +94,7 @@
 
 
 .capsules {
-  margin-top: 80px;
+  margin-top: 3%;
   padding: 0 16px;
   height: auto;
   display: flex;
@@ -110,6 +110,11 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  /*box-shadow: 0 0 10px #FFE1E1;*/
+}
+
+.capsule:hover {
+  box-shadow: 0 0 10px #FFE1E1;
 }
 
 .cap-top {
