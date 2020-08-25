@@ -1,6 +1,6 @@
 #examples {
   width: 100vw;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 #examples:before {
@@ -119,12 +119,14 @@
   padding: 0 16px;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .capsule {
   width: 200px;
   height: 480px;
+  margin: 24px;
   border-radius: 50%/20%;
   /*border: 1px solid #af8989;*/
   background: #e9ecef5c;
