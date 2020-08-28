@@ -1,6 +1,6 @@
 #about {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #about:before {
@@ -28,6 +28,7 @@
   height: 100%;
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -110,4 +111,30 @@
   font-size: 13px;
   color: grey;
   text-align: justify;
+}
+
+@media(max-width: 1025px) {
+  .about-text {
+    /*width: auto;*/
+    height: auto;
+  }
+}
+
+@media(max-width: 830px) {
+  .about-text {
+    width: auto;
+    height: auto;
+  }
+  .about-intro {
+    margin: auto;
+  }
+}
+
+@media(max-width: 415px) {
+  /*.about-heading h1 {
+    max-width: ;
+  }*/
+  #me-me {
+    font-size: 42px
+  }
 }
