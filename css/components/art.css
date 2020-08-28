@@ -30,7 +30,8 @@
   /*display: flex;*/
   /*position: relative;*/
   max-width: 100%;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   /*z-index: 9;*/
   overflow: hidden;
@@ -43,18 +44,21 @@
   /*display: block;*/
   right: 0;
   max-width: 40%;
+  min-width: 310px;
   margin-left: 15%;
   overflow: hidden;
 }
 
 #pink-wu {
   max-width: 35%;
+  min-width: 270px;
   margin: 6% 10% 8% 10%
   /*margin-right: 20% ;*/
 }
 
 .art-bottom {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .art-bottom-left {
@@ -65,16 +69,84 @@
 
 #hands {
   width: 100%;
+  min-width: 260px;
   /*margin: 6% 10% 8% 10%*/
   /*margin-right: 20% ;*/
 }
 
 #bubble {
   width: 50%;
+  min-width: 210px;
+  min-width: ;
   margin: 15% 0 0 30%;
   /*margin-right: 20% ;*/
 }
 .art-bottom-right {
-  margin: 50vh 15vh 0 15vh;
+  margin: 30% 10% 0 10%;
 }
+
+#rps {
+  max-width: 406px;
+}
+
+@media(max-width: 1700px) {
+  #rps {
+    max-width: 256px;
+  }
+}
+
+@media(max-width: 770px) {
+  #money {
+    position: relative;
+    margin: auto;
+  }
+  #pink-wu {
+    /*position: relative;*/
+    margin: auto;
+  }
+  .art-bottom-left {
+    /*max-width: 100%;*/
+    margin-top: 3vh;
+  }
+  #rps {
+    width: 191px;
+  }
+}
+
+@media(max-width: 415px) {
+  #money {
+    margin: 32px auto;
+  }
+  #pink-wu {
+    /*position: relative;*/
+    margin: 32px auto;
+  }
+  .art-bottom-left {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #hands {
+    margin: 32px auto;
+  }
+  #bubble {
+    /*position: relative;*/
+    margin: 32px auto;
+  }
+  /*#rps {
+    margin: 32px auto;
+  }*/
+  .art-bottom-right {
+    /*max-width: 100%;*/
+    margin: 32px auto;
+  }
+}
+
+@media (hover: none) {
+  #art img {
+    filter: grayscale(0);
+  }
+}
+
+
 
