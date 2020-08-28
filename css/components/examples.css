@@ -140,9 +140,9 @@
   box-shadow: 0 0 6px grey;
 }
 
-.capsule:hover {
-  /*box-shadow: 0 0 10px #FFE1E1;*/
-}
+/*.capsule:hover {
+  box-shadow: 0 0 10px #FFE1E1;
+}*/
 
 .capsule:hover > .cap-top {
   height: 170px;
@@ -194,6 +194,12 @@
   color: #80808054;
   font-size: 4rem;
   text-align: center;
+}
+
+@media (hover: none) {
+  .cap-top {
+    height: 170px;
+  }
 }
 
 
