@@ -20,8 +20,8 @@
 }
 
 .about-heading {
-  /*margin: 30vh 0 0 5vh;
-  padding-top: 30vh 0 0 5vh;*/
+  text-align: center;
+  width: 100%
 }
 
 .about-content {
@@ -40,9 +40,9 @@
   justify-items: center;
 }
 
-.about-intro div {
+/*.about-intro div {
   text-align: center;
-}
+}*/
 
 .about-heading h1 {
   font-family: 'Montserrat', sans-serif;
@@ -130,11 +130,12 @@
   }
 }
 
-@media(max-width: 415px) {
-  /*.about-heading h1 {
-    max-width: ;
-  }*/
+@media(max-width: 460px) {
+  .about-heading {
+  text-align: left;
+  }
   #me-me {
-    font-size: 42px
+    font-size: 42px;
+    display: none;
   }
 }
