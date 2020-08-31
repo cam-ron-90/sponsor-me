@@ -45,7 +45,7 @@
   right: 0;
   max-width: 40%;
   min-width: 310px;
-  margin-left: 15%;
+  /*margin-left: 15%;*/
   overflow: hidden;
 }
 
@@ -77,7 +77,6 @@
 #bubble {
   width: 50%;
   min-width: 210px;
-  min-width: ;
   margin: 15% 0 0 30%;
   /*margin-right: 20% ;*/
 }
@@ -99,10 +98,12 @@
   #money {
     position: relative;
     margin: auto;
+    width: 310px;
   }
   #pink-wu {
     /*position: relative;*/
     margin: auto;
+    width: 270px;
   }
   .art-bottom-left {
     /*max-width: 100%;*/
