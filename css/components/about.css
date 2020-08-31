@@ -119,11 +119,13 @@
   .about-text {
     /*width: auto;*/
     height: auto;
+    margin: auto;
   }
 }
 
 @media(max-width: 960px) {
   .about-text {
+    margin: 3vw;
     width: auto;
     height: auto;
   }
