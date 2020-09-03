@@ -99,13 +99,13 @@
 @media(max-width: 770px) {
   #money {
     position: relative;
-    margin: auto;
+    margin: 32px auto;
     width: 310px;
     height: 422.89px;
   }
   #pink-wu {
     /*position: relative;*/
-    margin: auto;
+    margin: 32px auto;
     width: 270px;
     height: 332.25px;
   }
@@ -138,12 +138,10 @@
     /*position: relative;*/
     margin: 32px auto;
   }
-  /*#rps {
-    margin: 32px auto;
-  }*/
   .art-bottom-right {
-    /*max-width: 100%;*/
-    margin: 32px auto;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
   #rps {
     /*max-width: 100%;*/
