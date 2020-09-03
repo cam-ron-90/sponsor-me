@@ -81,17 +81,19 @@
   /*margin-right: 20% ;*/
 }
 .art-bottom-right {
-  margin: 30% 10% 0 10%;
+  width: 45%;
+  /*margin: 30% 10% 0 10%;*/
 }
 
 #rps {
-  max-width: 406px;
+  margin: 40% 10% 0 30%;
+  max-width: 60%;
 }
 
 @media(max-width: 1700px) {
-  #rps {
+  /*#rps {
     max-width: 256px;
-  }
+  }*/
 }
 
 @media(max-width: 770px) {
@@ -112,7 +114,7 @@
     margin-top: 3vh;
   }
   #rps {
-    width: 191px;
+    min-width: 191px;
   }
 }
 
@@ -140,6 +142,10 @@
     margin: 32px auto;
   }*/
   .art-bottom-right {
+    /*max-width: 100%;*/
+    margin: 32px auto;
+  }
+  #rps {
     /*max-width: 100%;*/
     margin: 32px auto;
   }
