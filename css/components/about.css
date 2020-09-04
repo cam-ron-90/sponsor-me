@@ -92,7 +92,7 @@
   box-shadow: 0 0 10px #FFE1E1;
   /*clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);*/
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   overflow: scroll;
 
   /*box-shadow: 2px 2px rgba(0,0,0, 0.3);*/
