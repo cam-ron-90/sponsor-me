@@ -125,7 +125,7 @@
 
 @media(max-width: 960px) {
   .about-text {
-    margin: 3vw;
+    margin: 5vw;
     width: auto;
     max-height: 60vh;
   }
