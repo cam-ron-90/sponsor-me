@@ -127,7 +127,7 @@
   .about-text {
     margin: 3vw;
     width: auto;
-    height: auto;
+    max-height: 60vh;
   }
   .about-intro {
     margin: auto;
