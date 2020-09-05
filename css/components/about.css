@@ -116,6 +116,10 @@
   text-align: justify;
 }
 
+#censored {
+  text-decoration: line-through;
+}
+
 @media(max-width: 1171px) {
   /*.about-text {
     min-height: 40vh;
