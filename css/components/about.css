@@ -117,7 +117,7 @@
 }
 
 #censored {
-  text-decoration: line-through;
+  /*text-decoration: line-through;*/
 }
 
 @media(max-width: 1171px) {
