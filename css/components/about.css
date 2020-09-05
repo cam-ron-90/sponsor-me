@@ -88,17 +88,11 @@
   max-height: 35vw;
   margin: 10vw 7vw 5vw 0;
   padding: 32px;
-  /*background: linear-gradient(#FFE1E1, white);*/
   border: 2px solid #AF8989;
   box-shadow: 0 0 10px #FFE1E1;
-  /*clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);*/
   display: flex;
   /*align-items: center;*/
   overflow: scroll;
-
-  /*box-shadow: 2px 2px rgba(0,0,0, 0.3);*/
-
-  /*background: #AF8989;*/
 }
 
 .about-text div {
