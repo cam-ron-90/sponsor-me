@@ -115,11 +115,23 @@
   text-align: justify;
 }
 
-@media(max-width: 1025px) {
-  .about-text {
-    /*width: auto;*/
+@media(max-width: 1171px) {
+  /*.about-text {
     min-height: 40vh;
     margin: 10vh auto;
+  }
+*/  .about-text {
+    margin: 5vw;
+    width: auto;
+    max-height: 60vh;
+  }
+  .about-intro {
+    margin: auto;
+    width: 100%;
+  }
+  .about-heading {
+    text-align: left;
+    margin-left: 10vh;
   }
 }
 
