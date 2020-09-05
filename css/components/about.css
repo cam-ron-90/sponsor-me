@@ -58,6 +58,7 @@
 }
 
 .avatar {
+  margin-top: 32px;
   max-height: 45vh;
   max-width: 263px;
   /*filter: grayscale(1);
