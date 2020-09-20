@@ -45,7 +45,7 @@
   right: 0;
   max-width: 40%;
   min-width: 310px;
-  margin-left: 15%;
+  /*margin-left: 15%;*/
   overflow: hidden;
 }
 
@@ -77,39 +77,44 @@
 #bubble {
   width: 50%;
   min-width: 210px;
-  min-width: ;
   margin: 15% 0 0 30%;
   /*margin-right: 20% ;*/
 }
 .art-bottom-right {
-  margin: 30% 10% 0 10%;
+  width: 45%;
+  /*margin: 30% 10% 0 10%;*/
 }
 
 #rps {
-  max-width: 406px;
+  margin: 40% 10% 0 30%;
+  max-width: 60%;
 }
 
 @media(max-width: 1700px) {
-  #rps {
+  /*#rps {
     max-width: 256px;
-  }
+  }*/
 }
 
 @media(max-width: 770px) {
   #money {
     position: relative;
-    margin: auto;
+    margin: 32px auto;
+    width: 310px;
+    height: 422.89px;
   }
   #pink-wu {
     /*position: relative;*/
-    margin: auto;
+    margin: 32px auto;
+    width: 270px;
+    height: 332.25px;
   }
   .art-bottom-left {
     /*max-width: 100%;*/
     margin-top: 3vh;
   }
   #rps {
-    width: 191px;
+    min-width: 191px;
   }
 }
 
@@ -133,10 +138,12 @@
     /*position: relative;*/
     margin: 32px auto;
   }
-  /*#rps {
-    margin: 32px auto;
-  }*/
   .art-bottom-right {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #rps {
     /*max-width: 100%;*/
     margin: 32px auto;
   }

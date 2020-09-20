@@ -87,3 +87,9 @@
     font-size: 38px;
   }
 }
+
+@media (hover: none) {
+  .social-media ul li a:hover {
+    color: #FFE1E1;
+  }
+}
