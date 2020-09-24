@@ -1,6 +1,5 @@
 #examples {
   width: 100vw;
-  /*height: 100vh;*/
 }
 
 #examples:before {
@@ -10,23 +9,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  /*opacity: .1;
-  background-image: url('https://pngimage.net/wp-content/uploads/2018/06/lego-icon-png-2.png');*/
   background: linear-gradient(#FFE1E1, white);
-  /*clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);*/
-  /*clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);*/
-  /*clip-path: polygon(18% 17%, 10% 37%, 36% 51%, 10% 77%, 21% 97%, 50% 70%, 84% 83%, 94% 63%, 70% 50%, 85% 30%, 72% 11%, 50% 30%);*/
-  /*clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);*/
-/*clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);*/
-/*clip-path: polygon(75% 0%, 52% 51%, 75% 100%, 0 100%, 0 52%, 0 0);*/
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   z-index: -1;
-  /*top: 0;*/
-}
-
-.examples-heading {
-  /*margin: 30vh 0 0 5vh;
-  padding-top: 30vh 0 0 5vh;*/
 }
 
 .examples-heading h1 {
@@ -44,16 +29,13 @@
   width: 60%;
 }
 
-  .project-card p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-align: justify;
-  }
+.project-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
 
 .logos {
-  /*height: 100%;*/
-  /*display: flex;*/
-  /*align-content: flex-end;*/
   padding: 0 10%;
   display: flex;
 }
@@ -64,22 +46,24 @@
   align-items: center;
 }
 
-  .logo-container .logo {
-    height: 238px;
-    width: 238px;
-    background: #FFE1E1;
-    clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
-  }
-    .logo a {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-      .logo a img {
-        width: 70%;
-      }
+.logo-container .logo {
+  height: 238px;
+  width: 238px;
+  background: #FFE1E1;
+  clip-path: polygon(15% 14%, 90% 14%, 90% 85%, 0% 100%);
+}
+
+.logo a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo a img {
+  width: 70%;
+}
 
 .cross {
   height: 30px;
@@ -113,7 +97,6 @@
   margin-left: auto;
 }
 
-
 .capsules {
   margin-top: 3%;
   padding: 0 16px;
@@ -132,17 +115,12 @@
   height: 480px;
   margin: 24px;
   border-radius: 50%/20%;
-  /*border: 1px solid #af8989;*/
   background: #e9ecef5c;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   box-shadow: 0 0 6px grey;
 }
-
-/*.capsule:hover {
-  box-shadow: 0 0 10px #FFE1E1;
-}*/
 
 .capsule:hover > .cap-top {
   height: 170px;
@@ -151,18 +129,17 @@
 .cap-top {
   height: 480px;
   background: #f3b3b9;
-  /*border-bottom: 1px solid #af8989;*/
   box-shadow: 0 0 10px #af8989b0;
   transition: .5s;
 }
 
 .cap-top div {
-      display: flex;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
-    }
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
 .cap-top img {
   width: 80%;
@@ -181,8 +158,6 @@
 
 .cap-bottom p {
   font-size: 13px;
-  /*padding: 16px;*/
-  /*text-align: justify;*/
 }
 
 .cap-top div:hover > img {
@@ -208,7 +183,3 @@
     padding: 0 32px;
   }
 }
-
-
-
-

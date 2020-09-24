@@ -2,32 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta property="og:image" content="https://res.cloudinary.com/dk6h1ydhr/image/upload/v1600597543/cherry-blossom_tymcv5.png">
-  <title>Cam Melville</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- META DESCRIPTION -->
+  <title>Cam Melville</title>
+
+  <!-- SOCIAL TAGS -->
+  <meta property="og:image" content="https://res.cloudinary.com/dk6h1ydhr/image/upload/v1600597543/cherry-blossom_tymcv5.png">
+
+  <!-- FONTS - CSS - ICONS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700;1,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" href="css/font-mfizz-2.4.1/font-mfizz.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="icon" href="images/logo1.png">
 </head>
+
 <body>
-
-
-
+  <!-- LANDING -->
   <div id="landing">
     <p>hello my name is cam melville
       <br><span class="fine-print">web developer extraordinaire</span>
     </p>
-    <!-- <div class="landing-heading"> -->
       <h1 class="landing-heading">MY FAVORITE COLOUR IS <span class="green-heading"> {GREEN...}</span>
         <br>BUT I ALSO LIKE <span class="pink-heading"> {PINK}</span>
       </h1>
-    <!-- </div> -->
   </div>
 
-<div class="navbar navbar-expand-sm navbar-light navbar-sponsor">
+  <!-- NAVBAR -->
+  <div class="navbar navbar-expand-sm navbar-light navbar-sponsor">
     <a href="#landing" class="navbar-brand"><img src="images/logo1.png" alt="logo"></a>
     <div class="navbar-links">
       <a href="#about">Me.</a>
@@ -37,13 +41,8 @@
     </div>
   </div>
 
+  <!-- BIO -->
   <div id="about">
-    <!-- <div class="about-heading">
-      <h1> <span id="me-me">me me me me
-        <br>me me me me
-        <br>me me me</span> Me.
-      </h1>
-    </div> -->
     <div class="about-content">
       <div class="about-intro">
         <div class="about-heading">
@@ -72,6 +71,7 @@
     </div>
   </div>
 
+  <!-- PROJECTS -->
   <div id="examples">
     <div class="examples-heading">
       <h1>Eg.</h1>
@@ -154,23 +154,7 @@
       </a>
     </div>
 
-    <div class="icons">
-      <i class="icon-shell"></i>
-      <i class="icon-html5-alt"></i>
-      <i class="icon-css3-alt"></i>
-      <i class="icon-bootstrap"></i>
-      <i class="icon-javascript-alt"></i>
-      <i class="icon-npm"></i>
-      <i class="icon-jquery"></i>
-      <i class="icon-postgres"></i>
-      <i class="icon-database"></i>
-      <i class="icon-mysql-alt"></i>
-      <i class="icon-ruby"></i>
-      <i class="icon-python"></i>
-      <i class="icon-ruby-on-rails-alt"></i>
-      <i class="icon-git"></i>
-      <i class="icon-heroku"></i>
-    </div>
+    <!-- ALTERNATE PROJECT CARDS  -->
 
     <!-- <div id="logo-1" class="project-card">
       <div class="logo-container">
@@ -231,8 +215,29 @@
       </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la</p>
     </div> -->
+
+
+    <!-- ICONS -->
+    <div class="icons">
+      <i class="icon-shell"></i>
+      <i class="icon-html5-alt"></i>
+      <i class="icon-css3-alt"></i>
+      <i class="icon-bootstrap"></i>
+      <i class="icon-javascript-alt"></i>
+      <i class="icon-npm"></i>
+      <i class="icon-jquery"></i>
+      <i class="icon-postgres"></i>
+      <i class="icon-database"></i>
+      <i class="icon-mysql-alt"></i>
+      <i class="icon-ruby"></i>
+      <i class="icon-python"></i>
+      <i class="icon-ruby-on-rails-alt"></i>
+      <i class="icon-git"></i>
+      <i class="icon-heroku"></i>
+    </div>
   </div>
 
+  <!-- ART -->
   <div id="art">
     <div class="art-heading">
       <h1>Art.</h1>
@@ -253,10 +258,11 @@
     </div>
   </div>
 
+  <!-- CONTACT INFO -->
   <div id="info">
-    <div class="info-heading">
-      <h1>Info.</h1>
-    </div>
+    <!-- <div class="info-heading"> -->
+      <h1 class="info-heading">Info.</h1>
+    <!-- </div> -->
     <div class="info-text">
       <h1>
         would you like to
@@ -286,7 +292,10 @@
     </div>
 
   </div>
+
+  <!-- JAVASCRIPT -->
   <script>
+    // FIXED NAV //
     const nav = document.querySelector(".navbar-sponsor");
     const navTop = nav.offsetTop;
 
@@ -303,6 +312,7 @@
 
     window.addEventListener("scroll", fixNav);
 
+    // PINK-MODE //
     const info = document.getElementById("info");
     const infoTop = info.offsetTop - 500;
 
@@ -320,6 +330,5 @@
 
     window.addEventListener("scroll", pinkMode);
   </script>
-
 </body>
 </html>
