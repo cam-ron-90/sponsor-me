@@ -14,11 +14,6 @@
   z-index: -1;
 }
 
-.about-heading {
-  text-align: center;
-  width: 100%;
-}
-
 .about-content {
   height: 100%;
   display: flex;
@@ -33,7 +28,9 @@
   justify-items: center;
 }
 
-.about-heading h1 {
+.about-heading {
+  text-align: center;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 3.5em;
