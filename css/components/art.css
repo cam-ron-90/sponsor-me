@@ -75,16 +75,13 @@
 }
 
 .art-bottom-right {
+  text-align: center;
   width: 45%;
 }
 
 #rps {
   margin: 40% 10% 0 30%;
   max-width: 60%;
-}
-
-#rps img {
-  filter: blur(4px);
 }
 
 @media(max-width: 770px) {
@@ -148,4 +145,8 @@
   #art img {
     filter: grayscale(0);
   }
+
+ /* #art #rps {
+  filter: grayscale(0)
+  }*/
 }
