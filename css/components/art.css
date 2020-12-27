@@ -16,8 +16,18 @@
   transition: all 1s;
 }
 
+#art #rps{
+  filter: grayscale(1) blur(2px);
+  transition: all 1s;
+}
+
 #art img:hover {
   filter: grayscale(0);
+}
+
+#art #rps:hover {
+  filter: grayscale(0) blur(3px);
+  transition: all 1s;
 }
 
 .art-top {
@@ -71,6 +81,10 @@
 #rps {
   margin: 40% 10% 0 30%;
   max-width: 60%;
+}
+
+#rps img {
+  filter: blur(4px);
 }
 
 @media(max-width: 770px) {
