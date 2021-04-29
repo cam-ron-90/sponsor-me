@@ -116,7 +116,7 @@
   margin: 24px;
   border-radius: 50%/20%;
   background: #e9ecef5c;
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   overflow: hidden;
   box-shadow: 0 0 6px grey;
